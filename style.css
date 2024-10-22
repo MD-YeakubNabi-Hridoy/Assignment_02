@@ -151,3 +151,50 @@ header{
         font-size: 20px;
     }
 }
+
+/* habit section start */
+.habit{
+    text-align: center;
+    margin-top: 80px;
+}
+.habit-title{
+    font-size: 50px;
+}
+.habit-description{
+    margin: 15px 280px;
+    font-size: 18px;
+    color: rgb(172, 173, 173);
+}
+.habit-img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+.habit-img-box img{
+    border-radius: 100%;
+}
+.habit-img-box h4{
+    margin: 10px;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(172, 173, 173);
+}
+.habit-img-box p{
+    text-align: center;
+    font-size: 16px;
+    color: rgb(172, 173, 173);
+}
+@media screen and (max-width:576px) {
+    .habit-title{
+        font-size: 35px;
+    }
+    .habit-description{
+        margin: 15px 0px;
+        font-size: 18px;
+    }
+    .habit-img{
+        flex-direction: column;
+    }
+}
